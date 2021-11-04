@@ -16,7 +16,7 @@ const fetchBreedDescription = function(breedName, callback) {
 
     const data = JSON.parse(body);
  
-  //console.log(data);
+    //console.log(data);
 
     const breed = data[0];
     if (breed) {
